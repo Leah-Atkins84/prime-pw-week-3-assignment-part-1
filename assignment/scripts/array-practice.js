@@ -69,7 +69,8 @@ animalArray.unshift('walrus');
 console.log(`Added an animal to beginning: ${animalArray}`);
 
 // 4.c. TODO: Add a food at the beginning of the array & log the array
-
+foods.unshift('Cauliflower');
+console.log('Added a food to the beggining:', foods);
 
 // Example: Remove the first animal using Array.shift
 removedAnimal = animalArray.shift();
@@ -78,3 +79,6 @@ console.log('The animals are now', animalArray);
 
 // 4.d TODO: Remove the food at the beginning of your array &
 //     log both the food removed and the updated array
+let firstFood= foods.shift();
+console.log('Removed the first food', firstFood);
+console.log('The foods are now:', foods);
